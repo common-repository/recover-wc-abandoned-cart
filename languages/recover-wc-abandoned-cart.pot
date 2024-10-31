@@ -1,0 +1,198 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Recover abandoned cart for WooCommerce\n"
+"POT-Creation-Date: 2024-07-01 11:07+0530\n"
+"PO-Revision-Date: 2024-07-01 11:07+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: recover-wc-abandoned-cart.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/abandoned-list.php:93 admin/abandoned-list.php:95
+msgid "Abandoned carts"
+msgstr ""
+
+#: admin/abandoned-list.php:96
+msgid "Settings"
+msgstr ""
+
+#: admin/abandoned-list.php:97
+msgid "Exit Intent"
+msgstr ""
+
+#: admin/abandoned-list.php:98
+msgid "Documentation"
+msgstr ""
+
+#: admin/abandoned-list.php:139
+msgid "Sr.No"
+msgstr ""
+
+#: admin/abandoned-list.php:140
+msgid "Name"
+msgstr ""
+
+#: admin/abandoned-list.php:141
+msgid "Email"
+msgstr ""
+
+#: admin/abandoned-list.php:142
+msgid "Phone"
+msgstr ""
+
+#: admin/abandoned-list.php:143
+msgid "Location"
+msgstr ""
+
+#: admin/abandoned-list.php:144
+msgid "Product Name"
+msgstr ""
+
+#: admin/abandoned-list.php:145
+msgid "Cart Total"
+msgstr ""
+
+#: admin/abandoned-list.php:146
+msgid "Time"
+msgstr ""
+
+#: admin/abandoned-list.php:147 admin/abandoned-list.php:183
+#: admin/abandoned-list.php:189
+msgid "Delete"
+msgstr ""
+
+#: admin/abandoned-list.php:194
+msgid "You don't have any saved Abandoned carts yet."
+msgstr ""
+
+#: admin/abandoned-list.php:195
+msgid ""
+"But do not worry, as soon as someone fills the Email or Phone number fields "
+"of your WooCommerce Checkout form and abandons the cart, it will "
+"automatically appear here."
+msgstr ""
+
+#: admin/cartemail.php:13
+msgid "Send notifications about abandoned carts to this email:"
+msgstr ""
+
+#: admin/cartemail.php:16
+msgid "Email Address"
+msgstr ""
+
+#: admin/cartemail.php:18
+msgid "By default, notifications will be sent to WordPress admin email -"
+msgstr ""
+
+#: admin/cartemail.php:24
+msgid "Set Cron Email :"
+msgstr ""
+
+#: admin/cartemail.php:28 admin/exitintent.php:12
+msgid "No"
+msgstr ""
+
+#: admin/cartemail.php:29 admin/exitintent.php:13
+msgid "Yes"
+msgstr ""
+
+#: admin/cartemail.php:38
+msgid "Select Sending Email Hour :"
+msgstr ""
+
+#: admin/cartemail.php:41
+msgid "1 Hour"
+msgstr ""
+
+#: admin/cartemail.php:43
+msgid "24 Hour"
+msgstr ""
+
+#: admin/cartemail.php:47
+msgid "Email Subject :"
+msgstr ""
+
+#: admin/cartemail.php:49
+msgid "Enter Email Subject"
+msgstr ""
+
+#: admin/cartemail.php:54
+msgid "Email Message :"
+msgstr ""
+
+#: admin/cartemail.php:56
+msgid "Enter Email Message"
+msgstr ""
+
+#: admin/exitintent.php:9
+msgid "Enable Exit Intent :"
+msgstr ""
+
+#: admin/exitintent.php:19
+msgid "Popup Title : "
+msgstr ""
+
+#: admin/exitintent.php:21
+msgid "Email Popup Title"
+msgstr ""
+
+#: admin/exitintent.php:26
+msgid "Popup Content : "
+msgstr ""
+
+#: admin/exitintent.php:28
+msgid "Enter Popup Content"
+msgstr ""
+
+#: admin/exitintent.php:33
+msgid "Upload Logo "
+msgstr ""
+
+#: admin/exitintent.php:44
+msgid "Exit Intent Popup Layout"
+msgstr ""
+
+#: admin/exitintent.php:46
+msgid "Exit Intent Popup showing only non-logged user."
+msgstr ""
+
+#: recover-wc-abandoned-cart.php:231
+msgid ""
+"The Recovery WooCommerce Abandoned Cart plugin requires WooCommerce plugin "
+"installed & activated."
+msgstr ""
+
+#: recover-wc-abandoned-cart.php:243
+msgid "Every 1 Minutes"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Recover abandoned cart for WooCommerce"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Recover abandoned cart for WooCommerce easily. Increase sales by recovering "
+"your lost shopping cart by customers."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SKT Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://sktthemes.org/"
+msgstr ""

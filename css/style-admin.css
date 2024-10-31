@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+#racart_catrlistcustomers{width: 100%;}
+#toplevel_page_onehour{display: none;}
+.racart-cartrecovry-settings-inner{background-color: #fff;padding: 15px;}
+.racart_wccartemail_page, .racart_wccartemail_emailexit{background-color: #fff;padding: 15px;}
+.racart_cartmenu {background-color: #6bd46f;width: auto;display: inline-block;}
+.racart_cartmenu a {float: left;display: block;  color: #f2f2f2;text-align: center;padding: 14px 16px;text-decoration: none;  font-size: 17px;}
+.racart_cartmenu a:hover {background-color: #baebbc;color: black;}
+.racart_cartmenu a.racart_cartactive {background-color: #4CAF50;color: white;}
+#racart_catrlistcustomers td, #racart_catrlistcustomers th {border: 1px solid #ddd;padding: 8px;}
+#racart_catrlistcustomers tr:nth-child(odd){background-color: #f2f2f2;}
+#racart_catrlistcustomers tr:hover {background-color: #ddd;}
+#racart_catrlistcustomers th {padding-top: 12px;padding-bottom: 12px;text-align: left;background-color: #4CAF50;color: white;}
+.racart_alldelete{float: right;padding-bottom: 12px;}
+.racart_cart_mailer_form .racart_cart_email_form_setting {display: inline-flex;width: 100%;margin-bottom: 20px;}
+.racart_cart_mailer_form .racart_cart_email_form_setting .racart_cart_email_label{width: 200px; line-height: 1.3; font-weight: 600;}
+.racart_cart_mailer_form .racart_cart_email_form_setting input[type=text],
+.racart_cart_mailer_form .racart_cart_email_form_setting textarea,
+.racart_cart_mailer_form .racart_cart_email_form_setting select{padding: 8px;border-radius: 0px;width: 250px;}
+.racartlightbox {display: none;position: fixed;z-index: 9999;width: 100%;height: 100%;top: 0;left: 0;color:#333333;}
+.racartlightbox:after {content: '';display: table;clear: both;}.racartlightbox .racart_box {width: -webkit-min-content;width: -moz-min-content;width: min-content;min-width:500px;margin: 2% auto;padding:20px;background-color:#FFF;box-shadow: 0px 1px 26px -3px #777777;}
+.racartlightbox .title {margin:0;padding:0 0 10px 0px;border-bottom:1px #ccc solid;font-size:22px;}.racartlightbox .racart_content {display:block;padding:10px 0 0 0px;font-size:18px;line-height:22px;}
+.racartlightbox .racart_close {float:right;display:block;text-decoration:none;font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:22px;color:#858585;cursor: pointer;}
+.racartlightbox .open {display: block;outline: none;}
+.racart_admin_image {margin-top: 12px;}
+.racart_admin_image img {width: 99%; object-fit: cover;}
+.racart_mail_message{font-size: 10px;}
+.racart_mail_message_input{display: block;width: 251px;}
+body.woocommerce_page_racart-abandonedcart #wpcontent{margin-left: 155px;}
+.racart_intentleft { width: 50%; float: left;}
+.racart_intentright{ width: 40%; float: left;text-align: center;}
+.racart_intentright img{max-width: 100%; height: auto;}
+.racart_intentright h3{text-align: center;}
+.racart_intentright p{text-align: center;color: red;}
+.racart_radioset input[type="radio"] {margin-bottom: 0;margin-top: 2px;margin-right: 5px !important;}
+.racart_radioset label{padding-right: 10px;}
+#racart_cron_enable_disable{display: none;}
+
+@media screen and (max-width: 29.938em) {
+	.racart_cartmenu {width: auto;display: grid;}
+	.racart_cartmenu a { float: left; display: block; text-align: center; padding: 12px 12px; text-decoration: none;font-size: 12px;}
+	.racart-cartrecovry-settings-inner {padding: 8px;}
+	body.woocommerce_page_racart-abandonedcart #wpcontent {margin-left: 0px;}
+	#racart_catrlistcustomers {font-size:10px !important;width: 100% !important;}
+	#racart_catrlistcustomers th {padding-top: 10px;padding-bottom: 10px;text-align: left;}
+    #racart_catrlistcustomers td, #racart_catrlistcustomers th { border: 1px solid #ddd;padding: 0px;}
+	#racart_catrlistcustomers input[type="checkbox"]{height: 14px;width: 14px;}
+	#racart_deleteall{font-size: 11px;}
+	.racart_srno_email{overflow-x:auto; width:60px;}
+	.racart_srno_name{overflow-x:auto; width:60px;}
+	.racart_srno_productname{overflow-x:auto; width:60px;}
+	.racart_srno_head{display: none;}
+	.racart_intentleft {width: 100%;float: none;}
+	.racart_intentright { width: 100%; float: none; text-align: center;}
+	.racart_cart_mailer_form .racart_cart_email_form_setting input[type="text"],#racart_cron_emailchange{width: 175px;}
+}
+@media screen and (max-width:47.938em) and (min-width:30.000em) {
+	.racart_cartmenu {width: auto;display: grid;}
+	.racart_cartmenu a { float: left;   display: block;text-align: center;  padding: 14px 16px; text-decoration: none;font-size: 15px;}
+    body.woocommerce_page_racart-abandonedcart #wpcontent {margin-left: 0px;}
+    #racart_catrlistcustomers {font-size:11px !important;width: 100% !important;}
+    .racart-cartrecovry-settings-inner {background-color: #fff;padding: 10px;}
+    #racart_catrlistcustomers th {padding-top: 10px;padding-bottom: 10px;text-align: left;}
+    #racart_catrlistcustomers td, #racart_catrlistcustomers th { border: 1px solid #ddd;padding: 2px;}
+	#racart_catrlistcustomers input[type="checkbox"]{height: 14px;width: 14px;}
+	#racart_deleteall{font-size: 11px;}
+	.racart_srno_email{overflow-x:auto; width:100px;}
+	.racart_srno_name{overflow-x:auto; width:100px;}
+	.racart_srno_productname{overflow-x:auto; width:100px;}
+	.racart_srno_head{display: none;}
+	.racart_intentleft {width: 100%;float: none;}
+	.racart_intentright { width: 100%; float: none; text-align: center;}
+	.racart_cart_mailer_form .racart_cart_email_form_setting input[type="text"],#racart_cron_emailchange{width: 200px;}
+}
+@media screen and (max-width:63.938em) and (min-width:48.000em) {
+	body.woocommerce_page_racart-abandonedcart #wpcontent {margin-left: 150px;}
+	.racart_srno_email{overflow-x:auto; width:130px}
+	.racart_srno_name{overflow-x:auto; width:130px}
+	.racart_srno_productname{overflow-x:auto; width:45px}
+}
+@media screen and (max-width:72.438em) and (min-width:63.250em) {
+}
+
+
+@media screen and (min-width:320px) and (max-width:355px) {
+	.racart_intentright {margin-left: 12px;}
+	.racart_cart_mailer_form .racart_cart_email_form_setting input[type="text"], #racart_cron_emailchange {
+    width: 250px;}
+
+}
+
+@media screen and (min-width:358px) and (max-width:366px) {
+	.racart_cart_mailer_form .racart_cart_email_form_setting input[type="text"], #racart_cron_emailchange {
+    width: 175px;}
+
+}
+@media screen and (min-width:370px) and (max-width:445px) {
+	.racart_cart_mailer_form .racart_cart_email_form_setting input[type="text"], #racart_cron_emailchange {
+    width: 250px;}
+
+}
+
+@media screen and (min-width:446px) and (max-width:698px) {
+	.racart_cart_mailer_form .racart_cart_email_form_setting input[type="text"], #racart_cron_emailchange {
+    width: 250px;}
+
+}
+@media screen and (min-width:699px) and (max-width:767px) {
+	.racart_intentright {margin-left: 12px;}
+	.racart_cart_mailer_form .racart_cart_email_form_setting input[type="text"], #racart_cron_emailchange {
+    width: 250px;}
+}
+@media screen and (min-width:768px) and (max-width:782px) {
+.racart_cart_mailer_form .racart_cart_email_form_setting input[type="text"], #racart_cron_emailchange {
+    width: 195px !important;}
+}
+@media screen and (min-width:768px) and (max-width:960px) {
+	body.woocommerce_page_racart-abandonedcart #wpcontent {margin-left: 30px;}
+	.racart_intentright {margin-left: 12px;}
+	.racart_cart_mailer_form .racart_cart_email_form_setting input[type="text"], #racart_cron_emailchange {
+    width: 250px;}
+}
+@media screen and (max-width:1400px) {
+	.racart_intentright {margin-left: 12px;}
+	.auto-fold #wpcontent {padding-right: 10px;}
+}
